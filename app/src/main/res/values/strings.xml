@@ -1,0 +1,191 @@
+<resources>
+    <string name="app_name">Desembarco del Granma</string>
+    <string name="activity_temas">TEMAS</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Configuración</string>
+
+    <string name="nav_header_title">Desembarco del Granma</string>
+    <string name="nav_header_subtitle">gcm@uo.edu.cu</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="title_itempersonaje_list">Personajes</string>
+    <string name="title_itempersonaje_detail">Item_personaje Detail</string>
+    <string name="title_FIGURASHISTORICAS">FIGURAS HISTÓRICAS</string>
+    <string name="SUBTITULO">Seremos libres o mártires</string>
+
+    <string name="antecedentes">Antecedentes</string>
+    <string name="preparacion">Preparación de la expedición</string>
+    <string name="expedicion">La Expedición</string>
+    <string name="cubaespera">En Cuba se espera el Granma</string>
+    <string name="travesia">La travesía del Granma</string>
+    <string name="heroicos">Heroicos días subsiguientes</string>
+    <string name="significacion">Significación y Legado</string>
+    <string name="title_activity_detalles_temas">Detalles Temas</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="detallesantecedentes">El 10 de marzo de 1952, Fulgencio Batista Zaldívar, ejecutó un golpe de Estado contra el gobierno de Carlos Prío Socarrás, utilizando como pretexto la situación existente en el país. La actividad del Partido Ortodoxo contra la corrupción política administrativa  no coincidían con los planes del imperialismo yanqui en Cuba. El gobierno norteamericano, y la oligarquía ante la posibilidad real del triunfo de este partido por la vía electoral planifican, organizan y ejecutan por medio de Batista el cuartelazo.
+\n\n
+La entrada violenta de Batista en la vida política del país, significó un agravamiento de la realidad cubana. Crecen el juego, la prostitución, el gangsterismo, el analfabetismo, la insalubridad, el desalojo, el desempleo, la mendicidad, entre otros males. Además se desató la más brutal y sanguinaria ola de terror contra el pueblo cubano;    el golpe elevó a su expresión más alta la lucha de clases, creándose una situación revolucionaria.
+\n\n
+Ante la cobardía de los partidos políticos de la burguesía, y la condición de represión y aislamiento del Partido Socialista Popular que dificulta su dirección de la lucha,  Fidel Castro, joven abogado, martiano y marxista unido a un grupo de jóvenes revolucionarios que compartían sus ideas, comprenden la necesidad de reiniciar la revolución.
+\n\n
+En 1953, Fidel Castro y los jóvenes de la denominada " Generación del Centenario " organizados en un Movimiento, fieles al legado martiano en sus ideales y acción y comprometidos a continuar su obra de independencia absoluta y justicia social,  preparan y  llevan a cabo las acciones del 26 de julio de 1953, al  atacar los cuarteles Moncada en Santiago de Cuba y Carlos Manuel de Céspedes en Bayamo.
+\n\n
+ En juicio de la causa 37/53, todos los revolucionarios sufrieron largas condenas. Fidel Castro Ruz  compareció a juicio ejerciendo su propia defensa. Aquella autodefensa,  trazó de manera clara y precisa el programa de la Revolución, documento conocido como “La Historia me Absolverá”
+\n\n
+El 15 de mayo de 1955, tras haber cumplido 22 meses de, prisión, Fidel Castro Ruz y el resto de los combatientes condenados por las acciones del 26 de julio, salieron en libertad, dada la amnistía política que el régimen se vio obligado a conceder ante la creciente protesta, popular que se desarrollaba en el país.
+\n\n
+Tras la liberación política de Fidel y todos sus compañeros, era imprescindible la consolidación del Movimiento en lo organizativo y lo ideológico. Con tal propósito se reunieron en la casa No. 62, de la calle Factoría, en La Habana, el día 12 de junio de 1955 un grupo de aquellos jóvenes. Decidieron que el nombre de la organización sería Movimiento Revolucionario 26 de Julio.
+ \n\n
+De forma sistemática, la tiranía fue prohibiendo todo tipo de expresión pública: organización de reuniones, actividades cívicas, censura de artículos, lo que limitaba las acciones políticas; Fidel Castro era vigilado y perseguido continuamente. El líder del " Movimiento 26 de Julio "  se vio impedido de realizar los trabajos indispensables para reiniciar la guerra revolucionaria. La situación en Cuba impuso el exilio y buscar, en otras tierras, el escenario propicio para organizar la revolución.
+\n\n
+El 7 de julio de 1955, Fidel Castro parte a Mérida, México en un vuelo de Mexicana de Aviación. En Ciudad México se reúne con Raúl Castro Ruz y otros compañeros. Para los revolucionarios cubanos, en el exilio, se alzaba la inmensa responsabilidad de administrar fondos, coordinar esfuerzos y unir voluntades y criterios que permitieran disponer de la fuerza necesaria para enfrentar con las armas al ejército profesional de la tiranía batistiana. Desde los primeros momentos de su llegada y a lo largo de los meses restantes del año 1955, esas tareas constituyeron el centro de las actividades de Fidel.
+\n\n
+Entre otras tareas orientadas a los dirigentes del "Movimiento 26 de Julio" en Cuba desde México, tuvieron la misión de aportar hombres y fondos para la expedición que habría de traer a Cuba al núcleo inicial del ejército revolucionario que daría a la lucha armada contra la dictadura.
+\n\n
+ Además realizarían acciones de apoyo en el momento del desembarco, con el objetivo de inmovilizar a las fuerzas de la tiranía en sus propios cuarteles y obstaculizar el traslado de tropas y medios hacia la zona donde se produjera el arribo de la expedición.
+
+    </string>
+    <string name="detallespreparacion">En México,los futuros expedicionarios iniciaron el entrenamiento militar, con el objetivo de habituarlos a la futura vida guerrillera. Debían estar aptos físicamente para resistir las adversidades que afrontarían en las sierras de Oriente y adquirir los conocimientos militares indispensables para operar con éxito contra el ejército regular enemigo.
+\n\nUn aspecto esencial en el programa de entrenamiento eran las prácticas de tiro real con fusil. Para ello se requerían las armas que debían ser de calibre de guerra, el parque y, sobre todo, el lugar donde realizar el tiro. En los primeros meses de 1956, Fidel logró que el grupo de cubanos tuviera acceso al campo de tiro Los Gamitos, situado, en las afueras de Ciudad México.  Al concluir las prácticas de tiro, pasaban a realizar fuertes entrenamientos de campaña, en las montañas que rodeaban el campo Los Gamitos.
+\n\nLos entrenamientos prácticos se complementaban con clases teóricas sobre táctica guerrillera, lucha en la ciudad y otros tópicos militares. Estas clases o conferencias las ofrecía Alberto Bayo Giroud y tenían lugar, generalmente de noche, en las propias casas-campamento. Bayo, era un veterano de la Guerra Civil Española, vivía en México, donde Fidel lo conoció a fines de 1955. De este modo, cada grupo realizaba en forma alterna todos los tipos de entrenamiento.
+\n\nLos entrenamientos de vida en campaña, se realizaron en El Rancho Santa Rosa. a 40 km de Ciudad México. Aparte de las prácticas de tiro; una de las formas de entrenamiento más avanzadas en el rancho, eran las marchas nocturnas a las montañas.
+\n\nEl rancho funcionó como centro de entrenamiento hasta fines de junio de 1956, cuando Fidel y varios compañeros, fueron detenidos en la capital, y el grupo que en esos momentos se encontraba en el campamento, también cayó arrestado por las autoridades mexicanas.
+
+\n\nMientras el grueso de los hombres participaba de la preparación física y los entrenamientos, la dirección del Movimiento, desarrollaba una incesante búsqueda de los medios necesarios para equipar la expedición.
+\n\nOtro de los factores fundamentales para el plan propuesto, era la obtención de los medios para equipar la expedición, a esta tarea de adquirir armamentos, municiones, ropas y otros efectos, se dedicaron grandes esfuerzos y recursos financieros.
+
+\n\nEntre los medios necesarios e importantes para la expedición están las armas. La mayor parte se adquirieron por medio de una armería situada en Revillagigedo No. 47, Ciudad México, propiedad de Antonio del Conde Pontones, conocido como el Cuate, con quien Fidel Castro estableció contacto personalmente. Fidel inspeccionaba y probaba cada tipo de arma que le sugerían, antes de efectuar cualquier operación de compra.
+
+\n\nEn otras ciudades del país, como Toluca y Puebla, consiguieron armamentos para la expedición .También consideraron oportuno realizar compras fuera de México, para ello efectuaron varios viajes a Estados Unidos, ya que en ese país existían mayores facilidades para el tráfico de armas, y era posible obtener un mejor surtido. Así, en las ciudades de Los Ángeles, San Antonio, Chicago y New York, el Cuate, acompañado frecuentemente por Jesús Reyes García, (Chuchú), designado por Fidel para esa tarea, pudo adquirir diversos lotes. Hechas las compras, eran enviadas a México por personas entendidas en ese tipo de operaciones, quienes tenían la forma de hacerlas llegar con bastante seguridad, hasta su destino.
+
+\n\nOtros artículos necesarios como los uniformes, se confeccionaron en el fondo de la armería de Revillagigedo, también propiedad del Conde; las botas se compraron en Guanajuato; los sacos de dormir se elaboraron en el taller situado en la calle Manuel Doblado No. 74. Los demás utensilios de campaña fueron adquiridos en Estados Unidos.
+
+\n\nLa adquisición de las vituallas para la expedición del Granma, se convirtió en tarea de suprema responsabilidad, liderada por Fidel Castro, apelando a diferentes estrategias para la protección y conservación de las mismas hasta el momento de la partida: las armas, municiones, alimentos, uniformes de color especial verde olivo que serviría de camuflaje en la vegetación de la Sierra Maestra.
+</string>
+    <string name="detallesexpedicion">El plan general para desencadenar la lucha en Cuba, incluía acciones armadas en toda la isla y en particular en Oriente, destacándose por su importancia el levantamiento armado de Santiago de Cuba, con el objetivo de apoyar el desembarco de los expedicionarios. En agosto Frank Isaac País García,  viajó a México a fin de entrevistarse con Fidel para coordinar las acciones para apoyar el desembarco. En octubre vuelve a entrevistarse con Fidel y regresa convencido de que era ineludible cumplir el compromiso contraído de iniciar la lucha en 1956.
+
+\n\nEn septiembre se compró el yate Granma, cuando sólo faltaban tres meses para concluir el año 1956. El yate tuvo que sacarse dos o tres ocasiones para probarlo, en el río Ho arriba, pues el Tuxpan era muy bravo y difícil de navegar.
+
+\n\nDificultades de última hora demoraron el viaje, pues todo tenía que hacerse muy secretamente y esperar la oportunidad para salir sin ser descubiertos por las autoridades mexicanas. La organización de la salida de los jóvenes revolucionarios es inminente, no podían correr más riesgos, debido a las detenciones a que fueron víctimas los revolucionarios en Ciudad México.
+
+\n\nEl 22 de noviembre se llegó al acuerdo de que Tuxpan fuera el punto de reunión. Al día siguiente por la noche, llegan a Tuxpan. La lluvia era constante y fuerte. Un sendero los llevó hasta el muelle donde estaba fondeado, el "Granma". Allí estaba Fidel, señalando que "Ese era el barco".
+
+\n\nHaciendo el menor ruido se comenzó a ordenar las cajas de municiones, los fusiles, las provisiones de boca y todo lo que integraba el reducido equipo bélico. Era necesario aprovechar al máximo el espacio disponible y la disciplina adquirida en largos meses de entrenamiento, aspecto indispensable para mantener el mayor silencio posible. Como una cuestión de honor, se prohibió fumar. Había que evitar por todos los medios que la presencia de aquellos jóvenes fuera descubierta por las autoridades, ya que se había negado la salida a toda embarcación por el mal tiempo existente. La vigilancia policiaca y el acecho de los exportados agentes de la tiranía eran un peligro permanente. Importante cargamento y hombres clave habían caído recientemente en manos de la policía. La rapidez y la cautela, eran elementos esenciales para no acabar de perder lo que tanto esfuerzo y sacrificio costó reunir. Por el medio estaba la palabra empeñada que en el 56 ¡Libres o mártires seríamos!
+
+\n\nEn la noche del 25 de Noviembre como se había acordado, convergieron en un punto de la costa del golfo mexicano los  expedicionarios. Fidel expusó la organización militar y estructura dada al contingente expedicionario: La tropa quedó formada por un Estado mayor, tres pelotones de 22 hombres cada uno y tres escuadras, el promedio de edad de la columna era de 27 años.
+</string>
+    <string name="detallescubaespera">Como parte de los preparativos de la etapa final de la lucha de liberación nacional, en Oriente, se ultimaron junto a Fidel Castro los preparativos finales del levantamiento general que se produciría en toda la República. Se sellaron compromisos de levantamientos en Las Villas, en Matanzas y de acciones en parte de La Habana y Pinar del Río.
+\n\nEn la provincia de Oriente se trazó un macro plan. Se delineó el levantamiento de Santiago de Cuba conjuntamente con acciones colaterales; el levantamiento de un núcleo guerrillero en la Sierra Canasta, otro en Guantánamo, también en la zona de Manzanillo y en Puerto Padre. En la zona de Manzanillo se organizó y preparó de un grupo de campesinos con el propósito de que los expedicionarios tuvieran guía y resguardo en su marcha hacia la Sierra Maestra.
+El levantamiento armado del 30 noviembre.
+\n\nEn Santiago de Cuba la acción de apoyo al desembarco Frank País consideró la efectividad de hacer coincidir el levantamiento y el desembarco.
+\n\nPara lograr ese propósito, Frank propuso su estrategia de acción, que abarcaba diferentes puntos de la ciudad de Santiago de Cuba, entre ellos, atacar el edificio de la Policía, en la loma del Intendente y el de la Policía Marítima en el puerto, y hacer un bloqueo al cuartel Moncada, para disparar con un mortero creando el desconcierto. Se acordó armar todos los grupos que se pudieran y situarlos en puntos que impidieran la salida de los soldados de la fortaleza militar.
+\n\nAsimismo, el joven revolucionario plantea la posibilidad de que si los insurreccionalistas auténticos y los de Acción Libertadora estuvieran dispuestos a participar o brindar sus armas, se podría completar el cerco; si no, debían hacerse barricadas que situaran a las Brigadas Juveniles con ese fin. Lo mismo habrá que hacer con el Distrito Naval, situado en la zona de Playa Blanca, al final de la Calle Hermanos Tejada y tratar de tomar el aeropuerto Antonio Maceo, en el este de Santiago, para evitar la llegada de refuerzos por esa vía. Para ello le pidió a Manuel Abelardo Rodríguez Font que tomara fotos aéreas del aeródromo y de todos sus accesos.
+\n\nLa noche del 29 de noviembre de 1956, en víspera del levantamiento, Frank ordena a los miembros de las células seleccionadas acuartelarse en los lugares designados. Estos desconocían los detalles de las acciones, pues solo los miembros de la dirección y los jefes de acción conocían el plan. Había que mantener la mayor discreción para poder alcanzar el éxito.
+
+\n\nEl plan general de levantamiento en Santiago de Cuba consistió en el ataque a diversos puntos de la ciudad, entre otros la Policía Marítima, ubicada en el edificio de la Aduana, en la Alameda, se le encomendó al comando que dirigió Jorge Sotús Romero (luego traicionó la causa revolucionaria), integrado por unos 17 hombres.
+\n\nEl ataque a la Policía Nacional, en la Loma del Intendente, fue dirigido por: Pepito Tey , Otto Parellada y Paquito Cruz, siendo el jefe general de la acción en su conjunto Pepito Tey. El grupo de Pepito llevaba unos 20 hombres, el de Otto, alrededor de 8 y el de Paquito Cruz de 8 a 10, en total, alrededor de 40 hombres. Constituyó una de las acciones más riesgosa en la que cayeron en combate los jóvenes Pepito, Otto y Tony Alomá.
+\n\nParte del plan era también la toma de la armería de la ferretería Marce y Cía, situada en Calvario, entre las calles Aguilera y Enramada, cerca de la Plaza Dolores, ubicada en el centro de la ciudad de Santiago de Cuba. La misma fue un éxito, ya que las armas que allí se ocuparon se llevaron todas para el Estado Mayor del Movimiento.
+
+\n\nMuy importante en la estrategia era "la operación mortero," Este debía bombardear al cuartel Moncada. Para ello se responsabilizaron a 7 u 8 compañeros. Otra acción consistió en lograr el cerco al cuartel Moncada. Para ello se habilitaron varios grupos. También, se encontraban más de 200 muchachos acuartelados en espera de armas para alzarse si era necesario y tomar el Cuartel Moncada, esto evidencia la disposición de lucha de la juventud santiaguera contra el régimen de Batista y por la liberación nacional.
+</string>
+    <string name="detallestravesia">La expedición sale hacia Cuba el 25 de noviembre de 1956; en horas de la madrugada, lluviosa y fría, del puerto de Tuxpan, México. Fidel Castro, realizó la supervisión del yate "Granma" para comprobar si estaba listo para la partida y poder dar cumplimiento a la palabra empeñada con el pueblo de ser "libres o mártires en el 56"; con ese objetivo los ochenta y dos expedicionarios subieron a bordo y junto con ellos las armas, el combustible y los pocos alimentos que se consiguieron para la travesía.
+\n\nLos expedicionarios fueron despedidos por Melba Hernández, Piedad Solís y Antonio del Conde, que junto a otros compañeros, viajaron hacia Tuxpan.
+\n\nEl Granma tuvo cuantiosas dificultades en la travesía, debido a la tormenta que con fuerte oleaje hizo bailotear la embarcación, que traía cuatro veces más carga de la que podía realmente soportar. El oleaje puso en peligro de zozobrar al Granma en más de una ocasión. Cuenta el Che que  “ Salvo dos o tres marineros y cuatro o cinco personas más, el resto de los ochenta y dos tripulantes se marearon. Pero al cuarto o quinto día se alivió un poco la situación".[9]
+ \n\nLa ruta elegida comprendía una vuelta grande por el sur de Cuba, bordeando Jamaica, las islas del Gran Caimán, hasta el desembarco en algún lugar cercano al pueblo de Niquero, en la provincia de Oriente, lo que se fue cumpliendo según lo previsto aunque con lentitud, debido a la fuerte tempestad.
+\n\nLas circunstancias ante expuestas, sobre todo la tormenta, hizo que la travesía se prolongara por más de siete días, cuando todo había sido sincronizado con el "Movimiento 26 de Julio" en Cuba, para que el desembarco tuviera lugar al quinto día, el 30 de noviembre de 1956.
+ \n\nLos infortunios en el Granma se suceden más allá del mal tiempo, uno de los dos motores diesel se averió, se precisó en controlar el combustible y uno de los navegantes cumpliendo orden del capitán, ojea para descubrir el resplandor del faro de Cabo Cruz, sin resultado alguno; el fuerte oleaje hace difícil la tarea de observación; el segundo capitán Roberto Leonardo Roque Núñez asume la responsabilidad y sube al techo del yate y ocurre el imprevisto de su caída al agua, suceso significativo que demuestra el humanismo de Fidel y todos los jóvenes revolucionarios.
+\n\nSe hace todo lo necesario por rescatarlo lo suben al yate empapado, en pantalón, sin camisa y con escalofríos. Guevara y otro médico, Faustino Pérez, se esmeran para devolver la vida al semiahogado . Después, recuperadas sus fuerzas con la respiración artificial que le aplicaron, se le oye gritar bajito, con la voz entrecortada:—¡Viva... Cuba libre...! —y con él lo hacen todos los expedicionarios.
+\n\nDespués del accidente ante la posibilidad de que los hubieran visto por la cantidad de luces y el tiempo que estuvieron encendidas buscando a Roque se adoptó la medida de estar listo para entrar en acción de ser preciso, por esto emplazaron los dos cañones antitanque, alerta para abordar cualquier embarcación enemiga que se acercase.
+\n\nEl Granma navegaba por el sur de Caimán Chico y Caimán Brack, a unas 5 ó 6 millas de las costas. En la tarde del 1ro de diciembre el máximo dirigente del "Movimiento 26 de Julio" se dirigió a todos los expedicionarios para informarles que el desembarco se produciría en un punto cercano al pueblo de Niquero, en el sur de Oriente.
+\n\nAl amanecer el Granma con sus 82 expedicionarios entra en el canal de Niquero y navega con extrema precaución hacia la costa al estar cerca del objetivo: ¡Cuba!, todos los expedicionarios se pusieron en disposición de combate.
+\n\nEl desembarco se produjo el 2 de diciembre de 1956, en el lugar conocido como Los Cayuelos, a dos kilómetros de las playas de Las Coloradas, cerca de Niquero, el barco embarranca en un banco de fango, donde hasta el día anterior los había esperado Celia Sánchez.
+</string>
+    <string name="detallesheroicos">Después del desembarco de los expedicionarios y la marcha durante horas interminables por ciénagas y mangles, con ulceraciones en los pies de casi toda la tropa a consecuencias de las botas nuevas, los primeros combatientes, agotados, pisan tierra firme más de dos horas después de haber penetrado en el manglar, poco a poco va saliendo el contingente, cada grupo por un lugar distinto según lo planteado por Raúl en su diario de campaña.[13]
+
+\nEl día 5 de diciembre de 1956 llegan al batey de Alegría de Pío, situado aproximadamente al noreste de Agua Fría, lugar de la provincia de Oriente municipio de Niquero, cerca de Cabo Cruz. Es en el borde sur de los cañaverales, donde acampa la columna expedicionaria en la mañana cuando fueron sorprendidos por las tropas de la dictadura de Batista.
+\nSegún testimonio de Ernesto Guevara de la Serna, "... este enfrentamiento con el ejército de Batista fue el bautismo de fuego del naciente ejército rebelde, siendo el primer revés de la tropa, bisoños en el combate."
+
+\n"Él declara como del equipo de guerra nada más quedaba el fusil, la canana y algunas balas mojadas. Del arsenal médico habían desaparecido las mochilas en su gran mayoría, habían quedado en los pantanos".[14]
+
+\nEn la madrugada del día 5, eran pocos los que podían dar un paso más: la gente desmayada, caminaban pequeñas distancias para pedir descansos prolongados. Debido a ello, se ordenó un alto a la orilla de un cañaveral, en un bosquecito ralo, relativamente cercano al monte firme. La mayoría se durmió aquella mañana.
+
+\nCasi al mediodía de ese día, los aviones Biber y otros tipos de avionetas del ejército y de particulares localizaron a los expedicionarios; rondan por las cercanías parte del grupo, los cuales tranquilamente, cortaban cañas mientras pasaban los aviones, sin pensar en lo visible que eran dadas la baja altura y poca velocidad a que volaban los aparatos enemigos, no se percataron del inminente peligro que se le advenía.
+
+\n"El Che explica como el compañero Montané y él estaban recostados contra un tronco, hablando de sus respectivos hijos; comían la magra ración de medio chorizo y dos galletas, cuando sonó un disparo; una diferencia de segundos solamente y un huracán de balas, o al menos eso le pareció durante aquella prueba de fuego, se cernía sobre el grupo de 82 hombres".[15]
+
+\n"Alguien, de rodillas, gritaba que había que rendirse y se oyó atrás una voz, que después se demostró pertenecía a Juan Almeida Bosque , gritando: "Aquí no se rinde nadie... "y una palabrota después".
+\nEl resultado de la emboscada en Alegría de Pío, para los combatientes revolucionarios fue el siguiente: logró el ejército de la tiranía dispersar al naciente destacamento guerrillero. De los 82 expedicionarios, 3 muertos en el ataque sorpresa; 18 fueron descubiertos y asesinados por la guardia rural en los días posteriores; 21 capturados; 21 pudieron burlar el cerco del ejército y 19 lograron escapar; 6 de ellos lograron incorporarse durante el año 1957. De los 82 combatientes que desembarcaron en el Granma, sólo 27 supervivientes se reúnen con Fidel.
+\n El encuentro en Cinco Palmas.
+
+\nA medianoche del 18 de diciembre, bajo las cinco palmas de la finca de Ramón Pérez Montano, se reunieron ocho expedicionarios de los grupos de Fidel y Raúl. Los dos hermanos se abrazan. "¿Cuántos fusiles traes?" —preguntó Fidel. "Cinco". "Y dos que traigo yo, siete. ¡Ahora sí ganamos la guerra!"
+
+\nEn la finca de Mongo Pérez entre el día 18 de diciembre y el 22 se reunieron un total de 16 expedicionarios. El reencuentro de una pequeña parte de la fuerza expedicionaria con el líder y dirigente máximo del " Movimiento 26 de Julio ", constituyó un acontecimiento de extraordinaria importancia para el desarrollo de la revolución, pasó a ser la vanguardia inclaudicable en la que se centró el futuro de victoria de la nación cubana.
+</string>
+    <string name="detallessignificacion">
+Las dificultades, al parecer invencibles, no pudieron impedir el cumplimiento de la palabra empeñada con el pueblo cubano de ser libres o mártires, por el grupo de revolucionarios exiliados en México a partir de 1955 y otros cubanos. Dirigidos por Fidel Castro, realizan la épica travesía del yate Granma con sus 82 expedicionarios.
+
+\nNo obstante de aquel primer revés de Alegría de Pío, en los revolucionarios continuó encendida la chispa que prendió la llama, ¡Quedamos doce hombres y siete fusiles. Entonces ¡ahora si ganamos la guerra!, el líder Fidel Castro Ruz, no se desesperanzó e hizo explícita esa fe inquebrantable en la victoria –que lo había acompañado desde siempre- y después brotaría en otros y en otros, hasta recoger cosecha en toda una nación.
+
+\nLuego de tres años y 29 días, se cumplió la profecía del Gigante, que había hablado confiado de su pueblo y convicciones plasmado en sus palabras de: "Si salgo, llego; si llego, entro; si entro, triunfo", formulado desde su exilio en México, también había expresado con respecto al triunfo logrado “La lucha fue desigual, desgarradora y muchos quedaron en el empeño, pero los mambises de los nuevos tiempos echaron al tirano de la patria, con ideas y arrojo más que con las armas". [30]
+
+\nDe ahí que las ideas nos hayan acompañado siempre. Gracias a la razón y a la fuerza que las acompañan, aquellos "82 expedicionarios –al decir de Raúl- se han multiplicado en millones de hombres y mujeres en guardia permanente, dispuestos a defender su obra y su porvenir al precio que sea necesario.
+
+\nLo expresado anteriormente se resume poéticamente con gran genialidad en la oda de Jesús Orta Ruiz, el Indio Naborí:
+
+\n\nAquel pequeño punto en el mar
+\n¡Cómo ha crecido!
+\nLlegó al manglar y echó los héroes sobre la sierra;
+\npadre viajero, engendró las FAR
+\ny al Gran Ejército para la Guerra de Todo el Pueblo,
+\nsi hay que pelear.
+
+\n\nEl Presidente de los Consejos de Estado y de Ministros, General de Ejército Raúl Castro Ruz, en discurso pronunciado el 2 de diciembre de 1976, refiriéndose a aquel importante hecho, señaló:
+
+\n".... el Granma llegó el 2 de diciembre a Las Coloradas pero continuó navegando por la Sierra y por el llano. Su proa triunfante arribó el 1ro. de Enero de 1959 y prosiguió ininterrumpidamente su ruta revolucionaria a lo largo de todos estos años: liquidando el dominio imperialista sobre nuestro país, la explotación del hombre por el hombre, el analfabetismo, el desempleo, el desamparo de los niños y los ancianos, la discriminación racial y otras lacras sociales propias del régimen capitalista en que vivíamos.
+\nEl Granma ha enfrentado victoriosamente los ataques y las amenazas del enemigo de clase durante estos años, sin que su quilla jamás haya sido rota, sin que su marcha vigorosa y pujante haya sido jamás detenida.
+
+\nEn cada oportunidad ha emergido más fuerte que antes, imprimiéndoles más velocidad en cada ocasión a sus motores"
+</string>
+
+    <string name="title_activity_imagen_full_screen">Imagen pantalla completa</string>
+    <string name="dummy_button">Vista Completa</string>
+
+    <string name="title_activity_fullscreen_figura">Figura pantallacompleta</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_ayuda">Ayuda</string>
+
+    <string name="textoayuda1">Bienvenido a la ayuda del cuestionario</string>
+    <string name="textoayuda2">Lo primero que debes conocer, es que al terminar cada pregunta debes tocar el botón terminar.</string>
+
+    <string name="textoayuda3">Existen 6 tipos de preguntas que te realizaremos que responden a estas habilidades:  "\n""\n"
+        -Ordenar cronológicamente "\n"
+        -Enlazar según corresponda "\n"
+        -Completar los espacios en blanco "\n"
+        -Seleccionar la respuesta correcta "\n"
+        -Seleccionar todas las posibles respuestas "\n"
+        -Seleccionar la imágen correcta "\n"
+    </string>
+    <string name="textoayuda4">Para ORDENAR, debes presionar unos segundos la opción hasta que cambie a verde, luego la arrastras hasta la posición que le corresponde. </string>
+    <string name="textoayuda5">Para ENLAZAR, presiona unos segundos una de las opciones de arriba y cuando cambie a verde arrástrala hacia la opción que le corresponde en el cuadro.</string>
+    <string name="textoayuda6">Para COMPLETAR, presiona unos segundos una de las opciones del cuadro y arrastrala hasta el espacio arriba donde le corresponde.</string>
+    <string name="textoayuda7">Para SELECCIONAR,  toca la respuesta que consideres correcta y esta debe cambiar de color.</string>
+    <string name="textoayuda8">Para SELECCIONAR VARIAS RESPUESTAS, toca las respuestas que consideres correctas y estas deben cambiar de color.</string>
+    <string name="textoayuda9">Para SELECCIONAR IMÁGENES, toca la que consideres correcta y el cuadro a la izquierda de la imágen debe mostrar una palomita, indicando que está marcado .</string>
+    <string name="textoayuda10">Todos los ejercicios son contrareloj. Obtienes 10 puntos por cada respuesta correcta y el tiempo restante se agrega también a tu puntuación. Si respondes correctamente, pero te quedas sin tiempo antes de presionar en terminar, obtienes solo 9 puntos.</string>
+
+    <string name="tituloayuda1">BIENVENIDOS</string>
+    <string name="tituloayuda2">INTRODUCCIÓN</string>
+    <string name="tituloayuda3">PREGUNTAS</string>
+    <string name="tituloayuda4">ORDENAR</string>
+    <string name="tituloayuda5">ENLAZAR</string>
+    <string name="tituloayuda6">COMPLETAR</string>
+    <string name="tituloayuda7">SELECCIONAR</string>
+    <string name="tituloayuda8">SELECCIONAR VARIAS RESPUESTAS</string>
+    <string name="tituloayuda9">SELECCIONAR IMÁGENES</string>
+    <string name="tituloayuda10">RECUERDA</string>
+    <string name="textocreditos">Departamento de desarrollo de software y tecnologías de la Universidad de Oriente. \n \n</string>
+</resources>

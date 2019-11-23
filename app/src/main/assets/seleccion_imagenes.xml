@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preguntas_seleccion_imagenes>
+    <preguntaseleccionimagenes>
+        <tiempo>10</tiempo>
+        <pregunta>¿Cuál es el yate Granma? Selecciona la imagen correcta:</pregunta>
+        <respuesta>0</respuesta>
+        <correcta>2</correcta>
+    </preguntaseleccionimagenes>
+    <preguntaseleccionimagenes>
+        <tiempo>10</tiempo>
+        <pregunta>¿Cuál es el segundo al mando de los expedicionarios del yate Granma? Selecciona la imagen correcta:</pregunta>
+        <respuesta>1</respuesta>
+        <correcta>1</correcta>
+    </preguntaseleccionimagenes>
+</preguntas_seleccion_imagenes>

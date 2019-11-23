@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/temas"
+            android:icon="@mipmap/icon_temas"
+            android:title="Temas" />
+        <item
+            android:id="@+id/figuras"
+            android:icon="@mipmap/icon_figuras"
+            android:title="Figuras" />
+        <item
+            android:id="@+id/cuestionario"
+            android:icon="@mipmap/icon_cuestionario"
+            android:title="Cuestionario" />
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/ayuda"
+                android:icon="@mipmap/icon_ayuda"
+                android:title="Ayuda" />
+            <item
+                android:id="@+id/creditos"
+                android:icon="@mipmap/icon_creditos"
+                android:title="Créditos" />
+
+
+        </menu>
+    </item>
+
+</menu>

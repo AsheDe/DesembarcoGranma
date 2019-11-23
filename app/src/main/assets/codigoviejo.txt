@@ -1,0 +1,654 @@
+ /* try {
+            xmlPullParserFactory = XmlPullParserFactory.newInstance();
+            xmlPullParser = xmlPullParserFactory.newPullParser();
+        } catch (Exception exc) {
+            Toast.makeText(contexto, exc.getMessage(), Toast.LENGTH_LONG).show();
+        }
+        todaspreguntas = new ArrayList<>();
+        try {
+            xmlurl = new URL("file:///assets_directory/selecciona.xml") ;
+        }
+        catch (MalformedURLException e)
+        {
+            e.printStackTrace();
+        }*/
+
+
+// CreaPreguntasTipo1();
+       /* int eventType = -1;
+        while(eventType != XmlResourceParser.END_DOCUMENT)
+        {
+            XmlResourceParser assurances = contexto.getResources().getXml(R.xml.seleccion);
+            String name = assurances.getText();
+//            Log.d("TAG", name);
+
+            try {
+                if (assurances.getEventType() == XmlResourceParser.START_TAG) {
+                    String s = assurances.getName();
+                    String strMessage="nada";
+                    String strReference="nada";
+                    if (s.equals("assurance")) {
+                        assurances.next();   /// moving to the next node
+                        if(assurances.getName() != null && assurances.getName().equalsIgnoreCase("message")){
+                            strMessage = assurances.getText();  ///to get value getText() method should be used
+                            assurances.next();   ///jumping on to the next node
+                            strReference = assurances.getText();  ////similar to above
+                        }
+
+                        Log.d("TAG", strMessage);
+                        Log.d("TAG", strReference);
+                    }
+                }
+                else
+                    assurances.next();
+                eventType = assurances.getEventType() ;
+            } catch (Exception e) {
+                // TODO Auto-generated catch block
+                Log.d("TAG", e.getMessage());
+            }
+        }
+*/
+
+
+
+        //TypedArray preguntastexto =  contexto.getResources().obtainTypedArray(R.array.preguntas1) ;
+        //  Pregunta p1 = new Pregunta(TipoPregunta.SELECCIONA,preguntastexto,);
+
+       /* for (TypedArray item : ResourceHelper.getMultiTypedArrayAll(contexto, "preguntas")) {
+            Pregunta pregunta = new Pregunta();
+            pregunta.setmTipoPregunta( TipoPregunta.values()[item.getInt(0,0)] );
+
+            for( TypedArray mpregunta :  ResourceHelper.getMultiTypedArrayPreguntas(contexto) )
+           {
+                mispreguntas[mpregunta]
+           }
+            pregunta.setmPregunta(mispreguntas);
+
+            String [] mrespuestas = (String []) ResourceHelper.getMultiTypedArrayRespuesta(contexto).toArray() ;
+            pregunta.setmRespuestas(mrespuestas);
+            pregunta.setmTiempo(30);
+            preguntas.add(pregunta);
+        }*/
+
+
+/*
+    FileReader reader = new FileReader(  "seleccion.xml") );
+    xmlPullParser.setInput(reader);
+
+    int evento = xmlPullParser.getEventType() ;
+
+    while (evento!=XmlPullParser.END_DOCUMENT){
+        Pregunta question = new Pregunta() ;
+        question.setmTipoPregunta(TipoPregunta.SELECCIONA);
+        String nombreTAG = xmlPullParser.getName();
+        switch (evento){
+            case XmlPullParser.START_TAG:
+                break;
+            case XmlPullParser.END_TAG:
+            {
+                if(nombreTAG.equals("pregunta"))
+                {
+                    question.getmPregunta().add(xmlPullParser.getText());
+                }
+                if(nombreTAG.equals("respuesta"))
+                {
+                        question.getmRespuestas().add(xmlPullParser.getText()) ;
+                }
+                if(nombreTAG.equals("tiempo"))
+                {
+                    question.setmTiempo( Integer.parseInt( xmlPullParser.getText()));
+                }
+            }
+        }
+        preguntas.add(question);
+        evento = xmlPullParser.next() ;
+    }*/
+///////////////   metodo 2 ////////////
+          /*  RootElement root = new RootElement("xml");
+            Element preguntas_seleccion = root.getChild("preguntas_seleccion");
+            Element preguntaseleccion = preguntas_seleccion.getChild("preguntaseleccion");
+            /// empiezo a leer la pregunta
+            preguntaseleccion.setStartElementListener(new StartElementListener() {
+                @Override
+                public void start(Attributes attributes) {
+                    mPregunta = new Pregunta();
+                    mPregunta.setmTipoPregunta(TipoPregunta.SELECCIONA);
+                }
+            });
+
+            // termino de leer  la pregunta
+            preguntaseleccion.setEndElementListener(new EndElementListener() {
+                @Override
+                public void end() {
+                    todaspreguntas.add(mPregunta);
+                }
+            });
+
+
+            preguntaseleccion.getChild("pregunta").setEndTextElementListener(new EndTextElementListener() {
+                @Override
+                public void end(String body) {
+                    mPregunta.getmPregunta().add(body);
+                }
+            });
+
+            preguntaseleccion.getChild("respuesta").setEndTextElementListener(new EndTextElementListener() {
+                @Override
+                public void end(String body) {
+                    mPregunta.getmRespuestas().add(body);
+                }
+            });
+
+            preguntaseleccion.getChild("tiempo").setEndTextElementListener(new EndTextElementListener() {
+                @Override
+                public void end(String body) {
+                    mPregunta.setmTiempo(Integer.parseInt(body));
+                }
+            });
+            Parsear(root);
+*/        /*
+  *
+   *            Metodo 3
+*
+*
+* */
+          // File path =  contexto.getFileStreamPath("seleccion.xml");
+
+           // Toast.makeText(contexto, path.exists() + "" , Toast.LENGTH_LONG).show();
+
+ FileInputStream fil =  contexto.openFileInput( Environment.getExternalStorageDirectory() +  "seleccion.xml" );
+
+             //DOM (Por ejemplo)
+             DocumentBuilderFactory factory =
+             DocumentBuilderFactory.newInstance();
+
+             DocumentBuilder builder = factory.newDocumentBuilder();
+             Document dom = builder.parse(fil);
+
+             //A partir de aqu� se tratar�a el �rbol DOM como siempre.
+             //Por ejemplo:
+             Element root = dom.getDocumentElement();
+
+             //Mostrando en pantalla
+           //  Toast.makeText(contexto, root.getNodeName().toString(), Toast.LENGTH_LONG).show();
+
+
+
+        } catch (Exception e) {
+            Toast.makeText(contexto, "Error " + e.getMessage(), Toast.LENGTH_LONG).show();
+        }
+
+  private void Parsear(RootElement root){
+    try
+    {
+        Xml.parse(contexto.getAssets().open("xml/seleccion.xml"),
+                Xml.Encoding.UTF_8,
+                root.getContentHandler());
+    }
+        catch(Exception ex)
+
+    {
+        throw new RuntimeException(ex);
+    }
+
+    }
+
+    /*   actual.getmPregunta().add(preguntafull.item(0).getTextContent());
+                Log.d( "TAG 1 : " , preguntafull.item(0).getTextContent()) ;
+                for(int j = 1 ; j < preguntafull.getLength() - 2 ; j++ )
+                {
+                    actual.getmRespuestas().add(preguntafull.item(j).getTextContent());
+    //               Log.d( "TAG : " , preguntafull.item(j).getAttributes().item(0).getTextContent()) ;
+                    Log.d( "TAG 2 : " ,preguntafull.item(j).getTextContent()) ;
+                }*/
+
+private XmlPullParserFactory xmlPullParserFactory;
+    private XmlPullParser xmlPullParser;
+    private URL xmlurl;
+
+         // int cantidaddepreguntas = 3 ;
+
+
+
+
+               /* val instanciaopciones = Opciones_Fragment.newInstance(layouts.second, textos.second)
+                supportFragmentManager.beginTransaction().replace(
+                        R.id.frame_opciones, instanciaopciones
+                ).commit()*/
+           // }
+    /////////////
+
+
+    <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="cu.edu.uo.informatizacion.desembarcogranma">
+
+        <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme" />
+    </manifest>
+
+
+
+  /*  runtiempo = new TimerTask() {
+                @Override
+                public void run() {
+                    manejador.post(new Runnable() {
+                        @Override
+                        public void run() {
+                            if (tiempo > 0) {
+                                tiempo--;
+                                reloj.setText("" + tiempo);
+                                manejador.postDelayed(this, 1000);
+                            } else if (tiempo == 0){
+                                cancel() ;
+                               // temporizador.cancel();
+                                Snackbar.make(reloj, "Tiempo agotado...", Snackbar.LENGTH_LONG).show();
+                                tiempo = -1 ;
+                                if (ordendesalida.size() < listapreguntas.size()) {
+                                    //     manejador.postDelayed(this, 1000);
+                                    findViewById(R.id.responder).performClick();
+
+                                }
+
+                            }
+                            else{
+                              //  manejador.postDelayed(this, 3000);
+                            }
+                        }
+
+                    });
+
+                }
+
+            };*/
+          //  temporizador.schedule(corrertiempo, 1000);
+
+
+
+          /*
+          *
+          *
+          *   /Field field = null;
+                try {
+                    Class<R.array> res = R.array.class;
+                    field = res.getField("preguntas_" + n);
+                }
+                catch (Exception e)
+                {
+                    e.printStackTrace();
+                }
+                 finally {
+                    return field;
+                }
+          *
+          * public void FabricaPreguntasSeleccionar(){
+                String [] preguntas =  getResources().getStringArray(R.array.preguntas_seleccionar) ;
+                TypedArray opciones =  getResources().obtainTypedArray(R.array.opciones_preguntas_seleccionar) ;
+                  for (int i = 0 ; i < preguntas.length ; i++)
+                  {
+                      String pregunta = preguntas[i] ;
+                      Pregunta nueva = new Pregunta(TipoPregunta.SELECCIONA,
+                              new ArrayList<String>().add(pregunta),
+                               opciones.peekValue(i)
+                              )
+                      listapreguntas.add();
+                  }
+              }
+          *
+          *    preguntasyrespuestas = new Map.Entry(
+                          Pair(listapreguntas.get(0), R.array.opciones1),
+                          Pair(listapreguntas.get(1), R.array.opciones2),
+                          Pair(listapreguntas.get(2), R.array.opciones3),
+                          Pair(listapreguntas.get(3), R.array.opciones4),
+                          Pair(listapreguntas.get(4), R.array.opciones5),
+                          Pair(listapreguntas.get(5), R.array.opciones6),
+                          Pair(listapreguntas.get(6), R.array.opciones7),
+                          Pair(listapreguntas.get(7), R.array.opciones8),
+                          Pair(listapreguntas.get(8), R.array.opciones9),
+                          Pair(listapreguntas.get(9), R.array.opciones10),
+                          Pair(listapreguntas.get(10), R.array.opciones11)
+                  ) ;
+
+                  preguntasylayouts = new ArrayList <Pair<Integer, Integer>>(
+                          Pair(R.layout.vista_pregunta_1, R.layout.vista_cuestionario_2),
+                          Pair(R.layout.vista_pregunta_1, R.layout.vista_cuestionario_4),
+                          Pair(R.layout.vista_pregunta_1, R.layout.vista_cuestionario_1),
+                          Pair(R.layout.vista_pregunta_2, R.layout.vista_cuestionario_2),
+                          Pair(R.layout.vista_pregunta_1, R.layout.vista_cuestionario_3),
+                          Pair(R.layout.vista_pregunta_2, R.layout.vista_cuestionario_2),
+                          Pair(R.layout.vista_pregunta_1, R.layout.vista_cuestionario_6),
+                          Pair(R.layout.vista_pregunta_2, R.layout.vista_cuestionario_2),
+                          Pair(R.layout.vista_pregunta_2, R.layout.vista_cuestionario_1),
+                          Pair(R.layout.vista_pregunta_1, R.layout.vista_cuestionario_4),
+                          Pair(R.layout.vista_pregunta_2, R.layout.vista_cuestionario_6)
+                  );
+
+           private void ColocarPreguntasyRespuestas( )
+              {
+                  if(posicion < 5) {
+                      int quien = ordendesalida.get(posicion) ;
+                      Pair layouts = preguntasylayouts.get(quien) ;
+                      Integer textos = (Integer) preguntasyrespuestas.values().toArray()[quien] ;
+                      Bundle pregunta = new Bundle();
+                      pregunta.putInt("textos",);
+                      Fragment instanciapregunta = new Preguntas_Fragment().setArguments(new Bundle());
+                      supportFragmentManager.beginTransaction().replace(
+                              R.id.frame_pregunta, instanciapregunta
+                      ).commit()
+
+                      val instanciaopciones = Opciones_Fragment.newInstance(layouts.second, textos.second)
+                      supportFragmentManager.beginTransaction().replace(
+                              R.id.frame_opciones, instanciaopciones
+                      ).commit()
+
+
+
+                      posicion++
+                  }
+              }
+
+
+          */
+
+
+
+          ------------------------------------------------------
+
+
+
+       /* // Handles each of the expected events
+    //    if(view == dragging){
+            switch (action) {
+                case DragEvent.ACTION_DRAG_STARTED: {
+                    if (dragEvent.getClipDescription().hasMimeType(ClipDescription.MIMETYPE_TEXT_PLAIN))
+                    {
+                        // applies a blue color tint to the View to indicate that it can accept the data
+
+
+                        // Invalidate the view to force a redraw in the new tint
+                        view.invalidate();
+                        // returns true to indicate that the View can accept the dragged data.
+                        break;
+                    }
+                }
+                //  return false ;*/
+                if (action ==  ){
+
+                }
+            else if (action ==  DragEvent.ACTION_DRAG_EXITED){
+
+        }
+
+                    // Toast.makeText(getContext(),"entered" , Toast.LENGTH_LONG).show();
+                    // Applies a YELLOW or any color tint to the View. Return true; the return value is ignored.
+                    //view.getBackground().setColorFilter(Color.YELLOW, PorterDuff.Mode.SRC_IN);
+                    // Invalidate the view to force a redraw in the new tint
+                    //view.invalidate();
+
+/*
+
+                case DragEvent.ACTION_DRAG_LOCATION:
+                    // Ignore the event
+                    break;
+
+
+                case DragEvent.ACTION_DRAG_EXITED:{
+
+
+                    // Re-sets the color tint to blue, if you had set the BLUE color or any color in ACTION_DRAG_STARTED. Returns true; the return value is ignored.
+                    //view.getBackground().setColorFilter(Color.BLUE, PorterDuff.Mode.SRC_IN);
+                    //If u had not provided any color in ACTION_DRAG_STARTED then clear color filter.
+                    //view.getBackground().clearColorFilter();
+                    // Invalidate the view to force a redraw in the new tint
+                    //view.invalidate();
+                    break;}*/
+                if (action == DragEvent.ACTION_DROP){
+                    // Gets the item containing the dragged data
+                    ClipData.Item item = dragEvent.getClipData().getItemAt(0);
+                    // Gets the text data from the item.
+                    String dragData = item.getText().toString();
+                    // Displays a message containing the dragged data.
+                    //Toast.makeText(getContext(), "Dragged data is " + dragData, Toast.LENGTH_SHORT).show();
+                    // Turns off any color tints
+                    //view.getBackground().clearColorFilter();
+                    // Invalidates the view to force a redraw
+                    //view.invalidate();
+                    // Returns true. DragEvent.getResult() will return true.
+                   // if(view instanceof ItemAcomodatextoTextView)
+                      //  ((TextView) view).setText(dragData);
+                    }
+                if (DragEvent.ACTION_DRAG_ENDED == action) {
+                    // Turns off any color tinting
+                    // view.getBackground().clearColorFilter();
+                    // Invalidates the view to force a redraw
+                    //  view.invalidate();
+
+                   // ClipData.Item item = dragEvent.getClipData().getItemAt(0);
+                    // Gets the text data from the item.
+                  //  String dragData = item.getText().toString();
+
+                    //dragEvent.getLocalState() ;
+                   // Log.d("TAG", "drop" + "final" + dragData) ;
+                  //  ((ItemAcomodatextoTextView) view).RestaurarColor();
+                }
+// An unknown action type was received.
+               // default:
+                 //   Log.e("DragDrop Example", "Unknown action type received by OnDragListener.");
+                   // break;
+          //  }
+       // }
+
+       <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+               <item name="android:background">@color/black_overlay</item>
+           </style>
+
+
+
+           // String [] preguntadividida = textpregunta.split("_") ;
+
+                   // linea.removeAllViews();
+
+                   ////  for(TextView parte : todoselementos)
+                   //  {
+                   // TextView cont = new TextView(getContext()) ;
+                   //   cont.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT,ViewGroup.LayoutParams.WRAP_CONTENT));
+                   //  cont.setText(parte);
+                   // cont.setLines(1);
+                   //cont.measure(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+
+
+                   // linea.measure(LinearLayout.LayoutParams.WRAP_CONTENT,LinearLayout.LayoutParams.WRAP_CONTENT);
+                   //lineaancho = linea.getMeasuredWidth() ;
+                   //  ItemAcomodatexto blankspace = new ItemAcomodatexto(getContext(),true) ;
+                   // blankspace.setPregunta(true);
+                   // blankspace.measure(ViewGroup.LayoutParams.WRAP_CONTENT,ViewGroup.LayoutParams.WRAP_CONTENT);
+                   //  int anchoblank = blankspace.getMeasuredWidth() ;
+                   //if(lineaancho + anchoblank < widthscreen )
+                   //{
+                   //  linea.addView(blankspace);
+                   //}
+                   //else
+                   //{
+                   //  vraiz.addView(linea);
+                   //linea = new LinearLayout(getContext()) ;
+                   //linea.addView(blankspace);
+
+                   //}
+                   // blankspace.setOnDragListener(this);
+                   //   listapreguntas.add(blankspace) ;
+                   // }
+
+                    /*  @Override
+                       public boolean onDrag(View view, DragEvent dragEvent) {
+                           int action = dragEvent.getAction();
+                           Log.d("Accion",dragEvent.toString() +" Esta es la accion realizada") ;
+                           // Handles each of the expected events
+                               switch (action) {
+                                /*   case DragEvent.ACTION_DRAG_STARTED: {
+                                       if (dragEvent.getClipDescription().hasMimeType(ClipDescription.MIMETYPE_TEXT_PLAIN))
+                                       {
+                                           // applies a blue color tint to the View to indicate that it can accept the data
+                                           ((ItemAcomodatexto) view).CambiardeColor();
+
+                                           // Invalidate the view to force a redraw in the new tint
+                                           view.invalidate();
+                                           // returns true to indicate that the View can accept the dragged data.
+                                           break;
+                                       }
+                                   }
+                                   //  return false ;
+                                   case DragEvent.ACTION_DRAG_ENTERED:
+                                   {
+                                       // Toast.makeText(getContext(),"entered" , Toast.LENGTH_LONG).show();
+                                       // Applies a YELLOW or any color tint to the View. Return true; the return value is ignored.
+                                       //view.getBackground().setColorFilter(Color.YELLOW, PorterDuff.Mode.SRC_IN);
+                                       // Invalidate the view to force a redraw in the new tint
+                                       //view.invalidate();
+                                       ClipData.Item item = dragEvent.getClipData().getItemAt(0);
+                                       // Gets the text data from the item.
+                                       String dragData = item.getText().toString();
+                                       Log.d("TAG", "drop" + dragData) ;
+                                       break;}
+
+
+                                 /*  case DragEvent.ACTION_DRAG_LOCATION:
+                                       // Ignore the event
+                                       break;
+
+
+                                   case DragEvent.ACTION_DRAG_EXITED:{
+
+
+                                       // Re-sets the color tint to blue, if you had set the BLUE color or any color in ACTION_DRAG_STARTED. Returns true; the return value is ignored.
+                                       //view.getBackground().setColorFilter(Color.BLUE, PorterDuff.Mode.SRC_IN);
+                                       //If u had not provided any color in ACTION_DRAG_STARTED then clear color filter.
+                                       //view.getBackground().clearColorFilter();
+                                       // Invalidate the view to force a redraw in the new tint
+                                       //view.invalidate();
+
+                                       break;}
+                                   case DragEvent.ACTION_DROP:{
+                                       // Gets the item containing the dragged data
+                                        ClipData.Item item = dragEvent.getClipData().getItemAt(0);
+                                       // Gets the text data from the item.
+                                       String dragData = item.getText().toString();
+                                       // Displays a message containing the dragged data.
+                                       //Toast.makeText(getContext(), "Dragged data is " + dragData, Toast.LENGTH_SHORT).show();
+                                       // Turns off any color tints
+                                       //view.getBackground().clearColorFilter();
+                                       // Invalidates the view to force a redraw
+                                       //view.invalidate();
+                                       // Returns true. DragEvent.getResult() will return true.
+                                       Log.d("TAG", "drop" + dragData) ;
+                                       break;}
+                                   case DragEvent.ACTION_DRAG_ENDED: {
+                                       // Turns off any color tinting
+                                       // view.getBackground().clearColorFilter();
+                                       // Invalidates the view to force a redraw
+                                       //  view.invalidate();
+
+                                       ClipData.Item item = dragEvent.getClipData().getItemAt(0);
+                                       // Gets the text data from the item.
+                                       String dragData = item.getText().toString();
+
+                                       //view.setBackgroundResource(R.color.verde);
+                                       Log.d("TAG", "ended"  + dragData) ;
+                                       break;
+                                   }
+                   // An unknown action type was received.
+                                   default:
+                                       Log.e("DragDrop Example", "Unknown action type received by OnDragListener.");
+                                       break;
+                               }
+
+
+
+                           return false;
+
+                       }*/
+
+
+                       /* @Override
+                           public boolean onLongClick(View view) {
+
+                               ClipData.Item item = new ClipData.Item(((ItemAcomodatexto)view).getText());
+                               //Log.d("Item --> " , ((TextView)view).getText().toString() ) ;
+                               // Create a new ClipData using the tag as a label, the plain text MIME type, and
+                               // the already-created item. This will create a new ClipDescription object within the
+                               // ClipData, and set its MIME type entry to "text/plain"
+                               String[] mimeTypes = {ClipDescription.MIMETYPE_TEXT_PLAIN};
+                               ClipData data = new ClipData(((ItemAcomodatexto)view).getText(), mimeTypes, item);
+
+                               ((ItemAcomodatexto) view).CambiardeColor();
+                               // Instantiates the drag shadow builder.
+                               View.DragShadowBuilder dragshadow = new View.DragShadowBuilder(view);
+
+                               // Starts the drag
+                               view.startDrag(data       // data to be dragged
+                                       , dragshadow  // drag shadow
+                                       , view            // local data about the drag and drop operation
+                                       , 0          // flags set to 0 because not using currently
+                               );
+
+                               return true;
+
+                           }
+
+
+                           @Override
+                           public boolean onDrag(View view, DragEvent dragEvent) {
+                               int action = dragEvent.getAction();
+
+
+                               switch (action)
+                               {
+                                   case DragEvent.ACTION_DRAG_ENTERED :
+                                   { if(view instanceof ItemAcomodatextoTextView)
+                                           ((ItemAcomodatextoTextView)view).RecibirDrop();
+                                       break;}
+                                   case DragEvent.ACTION_DRAG_EXITED :
+                                   { if(view instanceof ItemAcomodatextoTextView)
+                                       ((ItemAcomodatextoTextView)view).RestaurarColor();
+                                       break;}
+                                   case DragEvent.ACTION_DROP:
+                                   {
+                                       Toast.makeText(getContext(),view.getClass().toString(),Toast.LENGTH_LONG).show();
+                                       if(view instanceof ItemAcomodatextoTextView)
+                                       {
+                                           ClipData.Item item = dragEvent.getClipData().getItemAt(0);
+                                           // Gets the text data from the item.
+                                           String dragData = item.getText().toString();
+                                           // Displays a message containing the dragged data.
+                                           //Toast.makeText(getContext(), "Dragged data is " + dragData, Toast.LENGTH_SHORT).show();
+                                           // Turns off any color tints
+                                           //view.getBackground().clearColorFilter();
+                                           // Invalidates the view to force a redraw
+                                           //view.invalidate();
+                                           // Returns true. DragEvent.getResult() will return true.
+                                           // if(view instanceof ItemAcomodatextoTextView)
+                                             ((ItemAcomodatextoTextView) view).setText(dragData);
+                                       }
+                                       break;
+                                   }
+                                   case DragEvent.ACTION_DRAG_ENDED :
+                                   { if(view instanceof ItemAcomodatextoTextView)
+                                   {
+
+                                   }
+                                       break;
+                                   }
+
+
+                               }
+
+
+
+
+
+                               return true;
+
+                           }*/

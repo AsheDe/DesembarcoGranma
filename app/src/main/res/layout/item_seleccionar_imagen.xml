@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="8dp"
+        android:id="@+id/seleccionCard"
+        android:background="@color/blanco"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/imagenrespuestaseleccion"
+           android:scaleType="fitXY"
+            android:src="@mipmap/fidel_castro_ruz"
+            android:layout_margin="12dp"
+            />
+    </android.support.v7.widget.CardView>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_anchor="@id/seleccionCard"
+        app:layout_anchorGravity="center_vertical|left"
+        android:elevation="8dp"
+        android:id="@+id/indicador_respuesta"
+        />
+</android.support.design.widget.CoordinatorLayout>

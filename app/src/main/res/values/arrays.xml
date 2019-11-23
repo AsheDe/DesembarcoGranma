@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="preguntas_2">
+        <item name="tipo">1</item>
+        <item name="pregunta">Pregunta 2</item>
+        <item name="respuesta" value="0">@mipmap/ernesto_guevara_de_la_serna</item>
+        <item name="respuesta" value="0">@mipmap/ernesto_guevara_de_la_serna</item>
+        <item name="respuesta" value="1">@mipmap/ernesto_guevara_de_la_serna</item>
+        <item name="respuesta" value="0">@mipmap/ernesto_guevara_de_la_serna</item>
+        <item name="tiempo">30</item>
+    </array>
+    <array name="preguntas_3">
+        <item name="tipo">2</item>
+        <item name="pregunta">[Pregunta 1]</item>
+        <item name="pregunta">[Pregunta 2]</item>
+        <item name="pregunta">[Pregunta 3]</item>
+        <item name="respuesta" value="pregunta1"> RESPUESTA 1 </item>
+        <item name="respuesta" value="pregunta3"> RESPUESTA 2 </item>
+        <item name="respuesta" value="pregunta2"> RESPUESTA 4 </item>
+        <item name="tiempo">30</item>
+    </array>
+    <array name="preguntas_4">
+        <item name="tipo">3</item>
+        <item name="pregunta">[Pregunta 1]</item>
+        <item name="respuesta" value="0"> RESPUESTA 1 </item>
+        <item name="respuesta" value="2"> RESPUESTA 2 </item>
+        <item name="respuesta" value="1"> RESPUESTA 4 </item>
+        <item name="respuesta" value="3"> iusgdf 4 </item>
+        <item name="tiempo">30</item>
+    </array>
+    <array name="preguntas_5">
+        <item name="tipo">4</item>
+        <item name="pregunta">[Pregunta 1]</item>
+        <item name="respuesta" value="V"> RESPUESTA 1 </item>
+        <item name="respuesta" value="F"> RESPUESTA 2 </item>
+        <item name="respuesta" value="F"> RESPUESTA 4 </item>
+        <item name="tiempo">30</item>
+    </array>
+    <array name="preguntas_6">
+        <item name="tipo">5</item>
+        <item name="pregunta">[Pregunta 1]</item>
+        <item name="pregunta">[Pregunta 2]</item>
+        <item name="pregunta">[Pregunta 3]</item>
+        <item name="respuesta" value="0"> RESPUESTA 1 </item>
+        <item name="respuesta" value="1"> RESPUESTA 2 </item>
+        <item name="respuesta" value="2"> RESPUESTA 4 </item>
+        <item name="tiempo">30</item>
+    </array>
+    <array name="preguntas_7">
+        <item name="tipo">0</item>
+        <item name="pregunta">[Pregunta 1]</item>
+        <item name="respuesta" value="0"> RESPUESTA 1 </item>
+        <item name="respuesta" value="0"> RESPUESTA 2 </item>
+        <item name="respuesta" value="1"> RESPUESTA 4 </item>
+        <item name="tiempo">30</item>
+    </array>
+    <array name="preguntas_8">
+        <item name="tipo">0</item>
+        <item name="pregunta">[Pregunta 1]</item>
+        <item name="respuesta" value="0"> RESPUESTA 1 </item>
+        <item name="respuesta" value="0"> RESPUESTA 2 </item>
+        <item name="respuesta" value="1"> RESPUESTA 4 </item>
+        <item name="tiempo">30</item>
+    </array>
+    <array name="preguntas_9">
+        <item name="tipo">0</item>
+        <item name="pregunta">[Pregunta 1]</item>
+        <item name="respuesta" value="0"> RESPUESTA 1 </item>
+        <item name="respuesta" value="0"> RESPUESTA 2 </item>
+        <item name="respuesta" value="1"> RESPUESTA 4 </item>
+        <item name="tiempo">30</item>
+    </array>
+    <array name="preguntas_10">
+        <item name="tipo">0</item>
+        <item name="pregunta">[Pregunta 1]</item>
+        <item name="respuesta" value="0"> RESPUESTA 1 </item>
+        <item name="respuesta" value="0"> RESPUESTA 2 </item>
+        <item name="respuesta" value="1"> RESPUESTA 4 </item>
+        <item name="tiempo">30</item>
+    </array>
+    <array name="preguntas_11">
+        <item name="tipo">0</item>
+        <item name="pregunta">[Pregunta 1]</item>
+        <item name="respuesta" value="0"> RESPUESTA 1 </item>
+        <item name="respuesta" value="0"> RESPUESTA 2 </item>
+        <item name="respuesta" value="1"> RESPUESTA 4 </item>
+        <item name="tiempo">30</item>
+    </array>
+
+
+    <string-array name="opciones_1">
+        <item>Respuesta 1</item>
+        <item>Respuesta 2</item>
+        <item>Respuesta 3</item>
+    </string-array>
+
+    <string-array name="opciones_2">
+        <item>Respuesta 1</item>
+        <item>Respuesta 54</item>
+        <item>Respuesta 3</item>
+    </string-array>
+
+    <string-array name="opciones_3">
+        <item>Respuesta 1</item>
+        <item>Respuesta 2g</item>
+        <item>Respuesta 3</item>
+    </string-array>
+
+    <string-array name="opciones_4">
+        <item>Respuesta 1</item>
+        <item>Respuesta sg2</item>
+        <item>Respuesta 3</item>
+    </string-array>
+
+    <string-array name="opciones_5">
+        <item>Respuesta 1</item>
+        <item>Respuestafg 2</item>
+        <item>Respuesta 3</item>
+    </string-array>
+
+    <string-array name="opciones_6">
+        <item>Respuesta 1</item>
+        <item>Respuesterera 2</item>
+        <item>Respuesta 3</item>
+    </string-array>
+
+    <string-array name="opciones_7">
+        <item>Respuesta 1</item>
+        <item>Respuesthhea 2</item>
+        <item>Respuesta 3</item>
+    </string-array>
+
+    <string-array name="opciones_8">
+        <item>Respueehsta 1</item>
+        <item>Respuesteheha 2</item>
+        <item>Respuesta 3</item>
+    </string-array>
+
+    <string-array name="opciones_9">
+        <item>Resperuesta 1</item>
+        <item>Respeeryeryuesta 2</item>
+        <item>Respuesta 3</item>
+    </string-array>
+
+    <string-array name="opciones_10">
+        <item>Resperyeyeryuesta 1</item>
+        <item>Respuesta 2</item>
+        <item>Respuesta 3</item>
+    </string-array>
+
+    <string-array name="opciones_11">
+        <item>Respereryeryuesta 1</item>
+        <item>Respuesta 2</item>
+        <item>Respuesta 3</item>
+    </string-array>
+
+    <integer-array name="tipos">
+        <item>2</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+        <item>3</item>
+    </integer-array>
+
+    <string-array name="temas">
+        <item>Antecedentes</item>
+        <item>Preparación de la expedición</item>
+        <item>La Expedición</item>
+        <item>En Cuba se espera el Granma</item>
+        <item>La travesía del Granma</item>
+        <item>Los días heroicos subsiguientes</item>
+        <item>Significación y Legado</item>
+    </string-array>
+
+    <string-array name="nombresfiguras">
+        <item>Camilo</item>
+        <item>Frank País</item>
+        <item>Fidel</item>
+        <item>Raul</item>
+        <item>Almeida</item>
+        <item>Che</item>
+        <item>Abel Santamaria</item>
+    </string-array>
+
+    <array name="imagenesfiguras">
+        <item>@mipmap/camilo_cienfuegos_gorriaran</item>
+        <item>@mipmap/frank_isaac_pais_garcia</item>
+        <item>@mipmap/fidel_castro_ruz</item>
+        <item>@mipmap/raul_castro_ruz</item>
+        <item>@mipmap/juan_almeida_bosque</item>
+        <item>@mipmap/ernesto_guevara_de_la_serna</item>
+        <item>@mipmap/abel_santamaria</item>
+        <item>@mipmap/agustin_diaz_cartaya</item>
+        <item>@mipmap/alberto_bayo_giroud</item>
+        <item>@mipmap/alfonso_guillen_zelaya_alger</item>
+        <item>@mipmap/andres_lujan_vazquez</item>
+        <item>@mipmap/angel_emilio_albentosa_chacon</item>
+        <item>@mipmap/antonio_aloma_serrano</item>
+        <item>@mipmap/antonio_dario_lopez_garcia</item>
+        <item>@mipmap/antonio_del_conde_pontones_el_cuate</item>
+        <item>@mipmap/antonio_lopez_fernandez</item>
+        <item>@mipmap/armando_enrique_hart_davalos</item>
+        <item>@mipmap/armando_huau_secades</item>
+        <item>@mipmap/armando_mestre_martinez</item>
+        <item>@mipmap/armando_rodriguez_moya</item>
+        <item>@mipmap/arnaldo_perez_rodriguez</item>
+        <item>@mipmap/arsacio_venegas_arroyo</item>
+        <item>@mipmap/arsenio_garcia_davila</item>
+        <item>@mipmap/arturo_chaumont_portocarrero</item>
+        <item>@mipmap/calixto_garcia_martinez</item>
+        <item>@mipmap/calixto_manuel_morales_hernandez</item>
+        <item>@mipmap/candido_gonzalez_morales</item>
+        <item>@mipmap/carlos_bermudez_rodriguez</item>
+        <item>@mipmap/carlos_israel_cabrera_rodriguez</item>
+        <item>@mipmap/carlos_prio_socarras</item>
+        <item>@mipmap/celia_sanchez_manduley</item>
+        <item>@mipmap/cesar_gomez_fernandez</item>
+        <item>@mipmap/ciro_redondo_garcia</item>
+        <item>@mipmap/crescencio_perez_montano</item>
+        <item>@mipmap/eduardo_reyes_canto</item>
+        <item>@mipmap/efigenio_ameijeiras_delgado</item>
+        <item>@mipmap/enrique_cueles_camps</item>
+        <item>@mipmap/ernesto_fernandez_rodriguez</item>
+        <item>@mipmap/esteban_sotolongo_perez</item>
+        <item>@mipmap/evaristo_montes_de_oca_rodriguez</item>
+        <item>@mipmap/faustino_perez_hernandez</item>
+        <item>@mipmap/felix_elmuza_agaisse</item>
+        <item>@mipmap/fernando_sanchez_amaya</item>
+        <item>@mipmap/francisco_chicola_casanova</item>
+        <item>@mipmap/francisco_gonzalez_hernandez</item>
+        <item>@mipmap/gabriel_gil_alfonso</item>
+        <item>@mipmap/gilberto_garcia_alfonso</item>
+        <item>@mipmap/gino_donne_paro</item>
+        <item>@mipmap/gregorio_enrique_camara_perez</item>
+        <item>@mipmap/guillermo_garcia_fria</item>
+        <item>@mipmap/haydee_santamaria_cuadrado2</item>
+        <item>@mipmap/horacio_rodriguez_hernandez</item>
+        <item>@mipmap/humberto_lamothe_coronado</item>
+        <item>@mipmap/jaime_costa_chavez</item>
+        <item>@mipmap/jesus_gomez_calzadilla</item>
+        <item>@mipmap/jesus_reyes_garcia</item>
+        <item>@mipmap/jesus_sergio_montane_oropesa</item>
+        <item>@mipmap/jose_antonio_echeverria</item>
+        <item>@mipmap/jose_fuentes_alfonso</item>
+        <item>@mipmap/jose_ponce_diaz</item>
+        <item>@mipmap/jose_ramon_martinez_alvarez</item>
+        <item>@mipmap/jose_smith_comas</item>
+        <item>@mipmap/jose_tey_saint_blancard_pepito_tey</item>
+        <item>@mipmap/juan_almeida_bosque</item>
+        <item>@mipmap/juan_manuel_marquez_exp</item>
+        <item>@mipmap/juan_manuel_marquez_rodriguez_</item>
+        <item>@mipmap/julio_diaz_gonzalez</item>
+        <item>@mipmap/lazaro_cardenas_y_del_rio</item>
+        <item>@mipmap/luis_arcos_bergnes</item>
+        <item>@mipmap/luis_crespo_castro</item>
+        <item>@mipmap/manuel_echeverria_martinez</item>
+        <item>@mipmap/maria_antonia_gonzalez_rodriguez</item>
+        <item>@mipmap/mario_chanes_de_armas</item>
+        <item>@mipmap/mario_fuentes_alfonso</item>
+        <item>@mipmap/mario_hidalgo_barrios</item>
+        <item>@mipmap/melba_hernandez_del_rey</item>
+        <item>@mipmap/miguel_cabanas_perojo</item>
+        <item>@mipmap/miguel_saavedra_perez</item>
+        <item>@mipmap/noelio_capote_figueroa</item>
+        <item>@mipmap/norberto_collado_abreu</item>
+        <item>@mipmap/norberto_godoy_de_rojas</item>
+        <item>@mipmap/onelio_pino_izquierdo</item>
+        <item>@mipmap/oscar_rodriguez_delgado</item>
+        <item>@mipmap/otto_parellada</item>
+        <item>@mipmap/pablo_arquimedes_hurtado_arbona</item>
+        <item>@mipmap/pablo_diaz_gonzalez</item>
+        <item>@mipmap/pedro_miret_prieto</item>
+        <item>@mipmap/pedro_sotto_alba</item>
+        <item>@mipmap/rafael_chao_santana</item>
+        <item>@mipmap/ramiro_valdes_menendez</item>
+        <item>@mipmap/ramon_emilio_mejia_castillo</item>
+        <item>@mipmap/ramon_perez_montano</item>
+        <item>@mipmap/raul_suarez_martinez</item>
+        <item>@mipmap/reinaldo_benitez_napoles</item>
+        <item>@mipmap/rene_bedia_morales</item>
+        <item>@mipmap/rene_orestes_reine_garcia</item>
+        <item>@mipmap/rene_ramos_latour</item>
+        <item>@mipmap/rene_rodriguez_cruz</item>
+        <item>@mipmap/roberto_leonardo_roque_nunez</item>
+        <item>@mipmap/rolando_moya_garcia</item>
+        <item>@mipmap/rolando_santana_reyes</item>
+        <item>@mipmap/santiago_liberato_hirzel_gonzalez</item>
+        <item>@mipmap/tomas_david_royo_valdes</item>
+        <item>@mipmap/universo_sanchez_alvarez</item>
+    </array>
+
+<array name="textos_detalles_temas">
+    <item>@string/detallesantecedentes</item>
+    <item>@string/detallespreparacion</item>
+    <item>@string/detallesexpedicion</item>
+    <item>@string/detallescubaespera</item>
+    <item>@string/detallestravesia</item>
+    <item>@string/detallesheroicos</item>
+    <item>@string/detallessignificacion</item>
+</array>
+
+    <array name="imagenesantecedentes">
+        <item>@mipmap/t1f1</item>
+        <item>@mipmap/t1f2</item>
+        <item>@mipmap/t1f3</item>
+        <item>@mipmap/t1f4</item>
+        <item>@mipmap/t1f5</item>
+        <item>@mipmap/t1f6</item>
+        <item>@mipmap/t1f7</item>
+        <item>@mipmap/t1f8</item>
+        <item>@mipmap/t1f9</item>
+        <item>@mipmap/t1f10</item>
+        <item>@mipmap/t1f11</item>
+        <item>@mipmap/t1f12</item>
+        <item>@mipmap/t1f13</item>
+        <item>@mipmap/t1f14</item>
+    </array>
+    <array name="imagenespreparacion">
+        <item>@mipmap/t2i1</item>
+        <item>@mipmap/t2i2</item>
+        <item>@mipmap/t2i3</item>
+        <item>@mipmap/t2i4</item>
+        <item>@mipmap/t2i5</item>
+        <item>@mipmap/t2i6</item>
+        <item>@mipmap/t2i7</item>
+        <item>@mipmap/t2i8</item>
+        <item>@mipmap/t2i9</item>
+        <item>@mipmap/t2i10</item>
+        <item>@mipmap/t2i11</item>
+        <item>@mipmap/t2i12</item>
+        <item>@mipmap/t2i13</item>
+        <item>@mipmap/t2i14</item>
+        <item>@mipmap/t2i15</item>
+    </array>
+    <array name="imagenesexpedicion">
+        <item>@mipmap/t3f1</item>
+        <item>@mipmap/t3f2</item>
+        <item>@mipmap/t3f3</item>
+        <item>@mipmap/t3f4</item>
+    </array>
+    <array name="imagenescubaespera">
+        <item>@mipmap/t4f1</item>
+        <item>@mipmap/t4f2</item>
+        <item>@mipmap/t4f3</item>
+        <item>@mipmap/t4f4</item>
+        <item>@mipmap/t4f5</item>
+        <item>@mipmap/t4f6</item>
+        <item>@mipmap/t4f7</item>
+        <item>@mipmap/t4f8</item>
+        <item>@mipmap/t4f9</item>
+    </array>
+    <array name="imagenestravesia">
+        <item>@mipmap/t5f1</item>
+        <item>@mipmap/t5f2</item>
+        <item>@mipmap/t5f3</item>
+        <item>@mipmap/t5f4</item>
+        <item>@mipmap/t5f5</item>
+    </array>
+    <array name="imagenesheroico">
+        <item>@mipmap/t6f1</item>
+        <item>@mipmap/t6f2</item>
+        <item>@mipmap/t6f3</item>
+        <item>@mipmap/t6f4</item>
+        <item>@mipmap/t6f6</item>
+    </array>
+    <array name="imagenessignificado">
+        <item>@mipmap/t7f1</item>
+
+    </array>
+
+    <array name="selecciona_imagenes_1">
+        <item>@mipmap/yate2</item>
+        <item>@mipmap/yate3</item>
+        <item>@mipmap/yate_granma</item>
+        <item>@mipmap/yate4</item>
+    </array>
+
+    <array name="selecciona_imagenes_2">
+        <item>@mipmap/juan_almeida_bosque</item>
+        <item>@mipmap/juan_manuel_marquez_exp</item>
+        <item>@mipmap/raul_castro_ruz</item>
+        <item>@mipmap/melba_hernandez_del_rey</item>
+    </array>
+
+    <string-array name="titulosayuda">
+        <item>@string/tituloayuda1</item>
+        <item>@string/tituloayuda2</item>
+        <item>@string/tituloayuda3</item>
+        <item>@string/tituloayuda4</item>
+        <item>@string/tituloayuda5</item>
+        <item>@string/tituloayuda6</item>
+        <item>@string/tituloayuda7</item>
+        <item>@string/tituloayuda8</item>
+        <item>@string/tituloayuda9</item>
+        <item>@string/tituloayuda10</item>
+    </string-array>
+    <string-array name="textosayuda">
+        <item>@string/textoayuda1</item>
+        <item>@string/textoayuda2</item>
+        <item>@string/textoayuda3</item>
+        <item>@string/textoayuda4</item>
+        <item>@string/textoayuda5</item>
+        <item>@string/textoayuda6</item>
+        <item>@string/textoayuda7</item>
+        <item>@string/textoayuda8</item>
+        <item>@string/textoayuda9</item>
+        <item>@string/textoayuda10</item>
+    </string-array>
+</resources>

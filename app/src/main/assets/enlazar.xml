@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preguntas_enlazar>
+    <preguntaenlazar>
+        <tiempo>45</tiempo>
+        <pregunta>Enlaza segun corresponda los lugares con los acontecimientos:</pregunta>
+        <pregunta>Tuxpan</pregunta>
+        <pregunta>Los Cayuelos</pregunta>
+        <pregunta>New York</pregunta>
+        <pregunta>Mérida</pregunta>
+        <respuesta>Arriba Fidel Castro a México</respuesta>
+        <respuesta>Sale yate Granma de México a Cuba</respuesta>
+        <respuesta>Arriba yate Granma a Cuba</respuesta>
+        <respuesta>Fidel se compromete a ser libres o mártires en 1956</respuesta>
+        <correcta>Mérida,Arriba Fidel Castro a México*Tuxpan,Sale yate Granma de México a Cuba*Los Cayuelos,Arriba yate Granma a Cuba*New York,Fidel se compromete a ser libres o mártires en 1956*</correcta>
+    </preguntaenlazar>
+</preguntas_enlazar>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PackCuestionario.Cuestionario">
+
+
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="32dp"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="8dp"
+            android:id="@+id/respuestaA"
+            android:layout_marginTop="16dp"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/desembarco"
+                android:layout_gravity="left"
+
+                />
+        </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+       android:layout_gravity="right|top"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="8dp"
+        android:id="@+id/respuestaB"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="32dp"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/desembarco"
+            android:layout_gravity="left"
+
+            />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom|left"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="8dp"
+        android:id="@+id/respuestaC"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="32dp"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/desembarco"
+            android:layout_gravity="left"
+
+            />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="right|bottom"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="8dp"
+        android:id="@+id/respuestaD"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="32dp"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/desembarco"
+            android:layout_gravity="left"
+
+            />
+    </android.support.v7.widget.CardView>
+
+
+
+</android.support.design.widget.CoordinatorLayout>
+
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preguntas_ordenar>
+    <preguntaordenar>
+        <tiempo>55</tiempo>
+        <pregunta>Sobre la expedición libertadora del yate Granma ordena</pregunta>
+        <respuesta>Cae expedicionario al mar 4</respuesta>
+        <respuesta>Sale el Granma de México 3</respuesta>
+        <respuesta>Arriba el Granma a las costas de Cuba 5</respuesta>
+        <respuesta>Prácticas de tiro en Ciudad México 1</respuesta>
+        <respuesta>Se compró el yate Granma 2</respuesta>
+        <correcta>Prácticas de tiro en Ciudad México*Se compró el yate Granma*Sale el Granma de México*Cae expedicionario al mar*Arribo a las costas de Cuba*</correcta>
+    </preguntaordenar>
+    <preguntaordenar>
+        <tiempo>55</tiempo>
+        <pregunta>Ordena los siguientes hechos históricos</pregunta>
+        <respuesta>La organización toma el nombre de Movimiento Revolucionario 26 de Julio 4</respuesta>
+        <respuesta>Fidel Castro Ruz y el resto de los combatientes salen de la prisión 3</respuesta>
+        <respuesta>Arriba el Granma a las costas de Cuba 5</respuesta>
+        <respuesta>Atacados los cuarteles Moncada y Carlos Manuel de Céspedes 1</respuesta>
+        <respuesta>Se efectuó el juicio a los asaltantes a los cuarteles 2</respuesta>
+        <correcta>Atacados los cuarteles Moncada y Carlos Manuel de Céspedes*Se efectuó el juicio a los asaltantes a los cuarteles*Fidel Castro Ruz y el resto de los combatientes salen de la prisión*La organización toma el nombre de Movimiento Revolucionario 26 de Julio*Fidel Castro parte a Mérida, México*</correcta>
+    </preguntaordenar>
+</preguntas_ordenar>

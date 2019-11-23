@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cu.edu.uo.informatizacion.desembarcogranma">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logodesembarco"
+        android:roundIcon="@mipmap/logodesembarcoredondo"
+        android:theme="@style/AppTheme"
+        >
+
+        <activity android:name=".Presentacion">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TEMAS"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PersonajeListActivity"
+            android:parentActivityName=".TEMAS"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PersonajeDetailActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Cuestionario.Cuestionario"
+            android:parentActivityName=".TEMAS"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetallesTemas"
+            android:label="@string/title_activity_detalles_temas"
+            android:parentActivityName=".TEMAS"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ImagenFullScreen"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_imagen_full_screen"
+            android:parentActivityName=".DetallesTemas"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".FullscreenFigura"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen_figura"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".Ayuda"
+            android:label="@string/title_activity_ayuda"
+            android:parentActivityName=".Cuestionario.Cuestionario"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cu.edu.uo.informatizacion.desembarcogranma.Cuestionario.Cuestionario" />
+        </activity>
+    </application>
+
+</manifest>

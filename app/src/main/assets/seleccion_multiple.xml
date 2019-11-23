@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preguntas_seleccion_multiple>
+    <preguntaseleccionmultiple>
+        <tiempo>15</tiempo>
+        <pregunta> Qué sucesos y condiciones que afectaron la travesía del Granma. Selecciona según corresponda</pregunta>
+        <respuesta> Tomaron una dirección equivocada </respuesta>
+        <respuesta> Tormenta de fuerte oleaje</respuesta>
+        <respuesta> Se averió uno de los motores del Granma </respuesta>
+        <respuesta> Encayaron en una isla </respuesta>
+        <respuesta> Se cae un expedicionario al mar y es necesario rescatarlo </respuesta>
+        <respuesta> Fueron perseguidos por barcos enemigos </respuesta>
+        <respuesta> La aviación bombardeo al yate durante la travesia </respuesta>
+        <correcta>1*2*4*</correcta>
+    </preguntaseleccionmultiple>
+    <preguntaseleccionmultiple>
+        <tiempo>15</tiempo>
+        <pregunta> ¿Qué cualidades y virtudes demuestran Fidel Castro y los demás expedicionarios durante la travesía Selecciona según corresponda</pregunta>
+        <respuesta> Amor al trabajo </respuesta>
+        <respuesta> Humanismo</respuesta>
+        <respuesta> Ambición </respuesta>
+        <respuesta> Patriotismo </respuesta>
+        <respuesta> Cobardía </respuesta>
+        <respuesta> Corrupción </respuesta>
+        <respuesta> Avaricia </respuesta>
+        <correcta>1*3*</correcta>
+    </preguntaseleccionmultiple>
+    <preguntaseleccionmultiple>
+        <tiempo>15</tiempo>
+        <pregunta> Selecciona según corresponda. Al producirse el desembarco los expedicionarios tienen que enfrentar...</pregunta>
+        <respuesta> Marchas por extensa ciénaga </respuesta>
+        <respuesta> Caminatas entre tupidos manglares</respuesta>
+        <respuesta> Frondoso bosque </respuesta>
+        <respuesta> Ulceraciones en los pies </respuesta>
+        <respuesta> Altas montañas</respuesta>
+        <respuesta> Mar embravecido </respuesta>
+        <respuesta> Fuertes aguaceros </respuesta>
+        <correcta>0*1*3*</correcta>
+    </preguntaseleccionmultiple>
+</preguntas_seleccion_multiple>

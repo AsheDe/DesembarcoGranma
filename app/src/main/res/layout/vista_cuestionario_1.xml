@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cuestionario.Cuestionario">
+
+
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        >
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="32dp"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="8dp"
+            android:id="@+id/respuestaA"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Texto de respuesta A"
+                android:layout_gravity="center"
+                android:id="@+id/textrespuestaA"
+                />
+        </android.support.v7.widget.CardView>
+        <TextView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:text="A"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"
+            app:layout_anchor="@id/respuestaA"
+            app:layout_anchorGravity="center_vertical|left"
+            android:gravity="center"
+            android:elevation="8dp"
+            />
+    </android.support.design.widget.CoordinatorLayout>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        >
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="32dp"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="8dp"
+            android:id="@+id/respuestaB"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Texto de respuesta B"
+                android:layout_gravity="center"
+                android:id="@+id/textrespuestaB"
+                />
+        </android.support.v7.widget.CardView>
+        <TextView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:text="B"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"
+            app:layout_anchor="@id/respuestaB"
+            app:layout_anchorGravity="center_vertical|left"
+            android:gravity="center"
+            android:elevation="8dp"
+            />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="176dp"
+        >
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="32dp"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="8dp"
+            android:id="@+id/respuestaC"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Texto de respuesta C"
+                android:layout_gravity="center"
+                android:id="@+id/textrespuestaC"
+                />
+        </android.support.v7.widget.CardView>
+        <TextView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:text="C"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"
+            app:layout_anchor="@id/respuestaC"
+            app:layout_anchorGravity="center_vertical|left"
+            android:gravity="center"
+            android:elevation="8dp"
+            />
+
+    </android.support.design.widget.CoordinatorLayout>
+</android.support.design.widget.CoordinatorLayout>

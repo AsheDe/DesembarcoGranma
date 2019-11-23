@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cuestionario.Cuestionario"
+    android:background="@mipmap/fondocuestionario"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="30"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginTop="32dp"
+        android:textColor="@color/verde"
+        android:id="@+id/cronometro"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ptos:0"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="44dp"
+        android:textColor="@color/verde"
+        android:id="@+id/puntuacion"
+        android:gravity="right"
+        android:layout_gravity="right|top"
+        android:layout_marginRight="16dp"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/frame_pregunta"
+        />
+<android.support.design.widget.CoordinatorLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_below="@+id/frame_pregunta"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        android:id="@+id/card_poibilidades"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="32dp"
+        >
+       <FrameLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/frame_opciones"
+           />
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/imgcheck"
+        app:layout_anchor="@id/card_poibilidades"
+        app:layout_anchorGravity="top|right"
+        android:id="@+id/responder"
+        android:layout_marginRight="16dp"
+        />
+</android.support.design.widget.CoordinatorLayout>
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

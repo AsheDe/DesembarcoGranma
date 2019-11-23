@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/elem1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="im"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/elem2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="56dp"
+        android:background="@color/colorPrimary"
+        android:text="not doing"
+        app:layout_constraintLeft_toLeftOf="@id/elem1"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <TextView
+        android:id="@+id/elem3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="bull spirit"
+        app:layout_constraintLeft_toLeftOf="@id/elem2"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <TextView
+        android:id="@+id/elem4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="72dp"
+        android:background="@color/colorPrimary"
+        android:text="ok da hell"
+        app:layout_constraintLeft_toLeftOf="@id/elem3"
+        tools:layout_editor_absoluteY="66dp" />
+
+    <TextView
+        android:id="@+id/elem5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="antifaz de corsario"
+        app:layout_constraintLeft_toLeftOf="@id/elem4"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <TextView
+        android:id="@+id/elem6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28dp"
+        android:background="@color/colorPrimary"
+        android:text="not interested"
+        app:layout_constraintLeft_toLeftOf="@id/elem5"
+        tools:layout_editor_absoluteY="94dp" />
+
+</android.support.constraint.ConstraintLayout>

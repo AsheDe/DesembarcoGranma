@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@mipmap/fondotemas"
+    >
+
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TEMAS"
+    tools:showIn="@layout/app_bar_temas"
+    android:paddingLeft="32dp"
+    android:paddingRight="32dp"
+    android:paddingTop="16dp"
+    android:id="@+id/gridview"
+    android:columnCount="@integer/numcolumnastemaportada"
+    android:gravity="center"
+
+    >
+
+        <android.support.v7.widget.CardView
+
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:id="@+id/cardantecedentes"
+            android:layout_columnWeight="1"
+            android:layout_margin="16dp"
+            >
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/cuartel_moncada"
+                android:scaleType="fitXY"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+
+                android:elevation="28dp"
+                android:text="@string/antecedentes"
+                android:textColor="@color/negro"
+                android:textSize="28sp"
+                android:gravity="center"
+                android:layout_gravity="bottom"
+                android:background="@color/blanco"
+                />
+        </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        android:id="@+id/cardprepexp"
+        android:layout_columnWeight="1"
+        android:layout_margin="16dp"
+        >
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/t1f9"
+            android:scaleType="fitXY"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+
+            android:elevation="28dp"
+            android:text="@string/preparacion"
+            android:textColor="@color/negro"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            android:background="@color/blanco"
+            />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        android:id="@+id/cardexpedicion"
+        android:layout_columnWeight="1"
+        android:layout_margin="16dp"
+        >
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/yate_granma" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+
+            android:elevation="28dp"
+            android:text="@string/expedicion"
+            android:textColor="@color/negro"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            android:background="@color/blanco"
+
+            />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_columnWeight="1"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        android:id="@+id/cardcubaespera"
+        android:layout_margin="16dp"
+        >
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@mipmap/frank_isaac_pais_garcia" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+
+            android:layout_gravity="bottom"
+            android:background="@color/blanco"
+            android:elevation="28dp"
+            android:gravity="center"
+            android:text="@string/cubaespera"
+            android:textColor="@color/negro"
+            android:textSize="28sp" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="16dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        android:id="@+id/cardtravesia"
+        android:layout_columnWeight="1"
+        >
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@mipmap/t5f5" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+
+            android:layout_gravity="bottom"
+            android:background="@color/blanco"
+            android:elevation="28dp"
+            android:gravity="center"
+            android:text="@string/travesia"
+            android:textColor="@color/negro"
+            android:textSize="28sp" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_columnWeight="1"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        android:id="@+id/carddiasheroicos"
+        android:layout_margin="16dp"
+        >
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@mipmap/cinco_palmas" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+
+            android:layout_gravity="bottom"
+            android:background="@color/blanco"
+            android:elevation="28dp"
+            android:gravity="center"
+            android:text="@string/heroicos"
+            android:textColor="@color/negro"
+            android:textSize="28sp" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="16dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        android:id="@+id/cardsignificacion"
+        android:layout_columnWeight="1"
+
+       
+        >
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@mipmap/legado" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+
+            android:layout_gravity="bottom"
+            android:background="@color/blanco"
+            android:elevation="28dp"
+            android:gravity="center"
+            android:text="@string/significacion"
+            android:textColor="@color/negro"
+            android:textSize="28sp" />
+    </android.support.v7.widget.CardView>
+
+
+
+
+</GridLayout>
+</ScrollView>

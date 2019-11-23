@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="numcolumnas">3</integer>
+    <bool name="tablet">true</bool>
+    <dimen name="app_bar_detalles_height">450dp</dimen>
+    <dimen name="text_margin">24dp</dimen>
+    <dimen name="margen_imagenes_detalles_temas">32dp</dimen>
+    <integer name="numcolumnastema">2</integer>
+    <dimen name="textotemasp">20sp</dimen>
+    <integer name="numcolumnastemaportada">2</integer>
+    <dimen name="altohelp">560dp</dimen>
+    <dimen name="letras_cuestionario">18sp</dimen>
+    <integer name="letras_cuestionario_float">18</integer>
+</resources>

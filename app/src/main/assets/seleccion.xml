@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preguntas_seleccion>
+    <preguntaseleccion>
+        <tiempo>15</tiempo>
+        <pregunta>¿En qué lugar Fidel Castro pronunció la frase histórica “en el 56 seremos libres o seremos mártires...”? Selecciona la respuesta correcta:</pregunta>
+        <respuesta> New York </respuesta>
+        <respuesta> Ciudad México </respuesta>
+        <respuesta> La Habana  </respuesta>
+        <respuesta> Tampa </respuesta>
+        <correcta>0</correcta>
+    </preguntaseleccion>
+    <preguntaseleccion>
+        <tiempo>15</tiempo>
+        <pregunta>¿Quién instruyó a los expedicionarios en táctica guerrillera, lucha en la ciudad? Selecciona la respuesta correcta:</pregunta>
+        <respuesta> Fidel Castro Ruz</respuesta>
+        <respuesta> Alberto Bayo Giroud </respuesta>
+        <respuesta> Roberto Roque Nuñez  </respuesta>
+        <respuesta> Ernesto Guevara de la Serna </respuesta>
+        <correcta>1</correcta>
+    </preguntaseleccion>
+    <preguntaseleccion>
+        <tiempo>15</tiempo>
+        <pregunta>¿Quién dirigió en Santiago de Cuba la acción de apoyo al desembarco? Selecciona la respuesta correcta:</pregunta>
+        <respuesta> Fidel Castro Ruz</respuesta>
+        <respuesta> Alberto Bayo Giroud </respuesta>
+        <respuesta> Frank País García  </respuesta>
+        <respuesta> René Ramos Latour </respuesta>
+        <correcta>2</correcta>
+    </preguntaseleccion>
+    <preguntaseleccion>
+        <tiempo>15</tiempo>
+        <pregunta>¿Cuál fue el expedicionario que cayó al mar debido al mal tiempo? Selecciona la respuesta correcta:</pregunta>
+        <respuesta> Fidel Castro Ruz</respuesta>
+        <respuesta> Roberto Leonardo Roque Núñez </respuesta>
+        <respuesta> Juan Almeida Bosque  </respuesta>
+        <respuesta> Jesús Montané Oropesa </respuesta>
+        <correcta>1</correcta>
+    </preguntaseleccion>
+    <preguntaseleccion>
+        <tiempo>15</tiempo>
+        <pregunta>¿En qué fecha Fidel Castro pronunció la frase histórica “en el 56 seremos libres o seremos mártires...”? Selecciona la respuesta correcta:</pregunta>
+        <respuesta> 2 de diciembre de 1956 </respuesta>
+        <respuesta> 6 de noviembre de 1955 </respuesta>
+        <respuesta> 10 de marzo de 1952  </respuesta>
+        <respuesta> 5 de diciembre de 1956 </respuesta>
+        <correcta>1</correcta>
+    </preguntaseleccion>
+    <preguntaseleccion>
+        <tiempo>15</tiempo>
+        <pregunta>¿Cuál es el segundo al mando de los expedicionarios? Selecciona la respuesta correcta:</pregunta>
+        <respuesta> Juan Almeida Bosque </respuesta>
+        <respuesta> Camilo Cienfuegos </respuesta>
+        <respuesta> Alberto Bayo  </respuesta>
+        <respuesta> Juan Manuel Márquez </respuesta>
+        <correcta>3</correcta>
+    </preguntaseleccion>
+    <preguntaseleccion>
+        <tiempo>15</tiempo>
+        <pregunta>¿En qué lugar se produjo el desembarco de los expedicionarios del Granma? Selecciona la respuesta correcta:</pregunta>
+        <respuesta> Las Coloradas </respuesta>
+        <respuesta> El Francés </respuesta>
+        <respuesta> Los Cayuelos </respuesta>
+        <respuesta> Niquero </respuesta>
+        <correcta>2</correcta>
+    </preguntaseleccion>
+    <preguntaseleccion>
+        <tiempo>15</tiempo>
+        <pregunta>¿Cuál es la fecha exacta del arribo a Cuba de los expedicionarios del Granma? Selecciona la respuesta correcta:</pregunta>
+        <respuesta> 15 de mayo de 1955 </respuesta>
+        <respuesta> 2 diciembre de 1956 </respuesta>
+        <respuesta> 25 noviembre 1956 </respuesta>
+        <respuesta> 6 de noviembre de 1955 </respuesta>
+        <correcta>1</correcta>
+    </preguntaseleccion>
+    <preguntaseleccion>
+        <tiempo>15</tiempo>
+        <pregunta>¿Cuándo salió el yate Granma desde México hacia Cuba? Selecciona la respuesta correcta:</pregunta>
+        <respuesta> 15 de mayo de 1955 </respuesta>
+        <respuesta> 2 diciembre de 1956 </respuesta>
+        <respuesta> 25 noviembre 1956 </respuesta>
+        <respuesta> 6 de noviembre de 1955 </respuesta>
+        <correcta>2</correcta>
+    </preguntaseleccion>
+</preguntas_seleccion>

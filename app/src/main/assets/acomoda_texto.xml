@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preguntas_acomodartexto>
+    <preguntaacomodartexto>
+        <tiempo>45</tiempo>
+        <pregunta>“… en el año _ , seremos _ o seremos  _” .</pregunta>
+        <respuesta>ayudar</respuesta>
+        <respuesta>patriotas</respuesta>
+        <respuesta>1956</respuesta>
+        <respuesta>libres</respuesta>
+        <respuesta>muertos</respuesta>
+        <respuesta>mártires</respuesta>
+        <respuesta>1959</respuesta>
+        <respuesta>liberados</respuesta>
+        <correcta>1956*libres*mártires*</correcta>
+    </preguntaacomodartexto>
+    <preguntaacomodartexto>
+        <tiempo>45</tiempo>
+        <pregunta>Esta lucha comenzó para nosotros el _ , dura ya casi cuatro años y terminará con el último día de la _ o el último día _ .</pregunta>
+        <respuesta>ayudar</respuesta>
+        <respuesta>necesidad</respuesta>
+        <respuesta>10 de marzo</respuesta>
+        <respuesta>libres</respuesta>
+        <respuesta>dictadura</respuesta>
+        <respuesta>mártires</respuesta>
+        <respuesta>nuestro</respuesta>
+        <respuesta>incorrecta</respuesta>
+        <correcta>10 de marzo*dictadura*nuestro*</correcta>
+    </preguntaacomodartexto>
+    <preguntaacomodartexto>
+        <tiempo>45</tiempo>
+        <pregunta>La proeza de la expedición libertadora del  _  es continuidad de la _  iniciada en _ .</pregunta>
+        <respuesta>ayudar</respuesta>
+        <respuesta>necesidad</respuesta>
+        <respuesta>Granma</respuesta>
+        <respuesta>libres</respuesta>
+        <respuesta>dictadura</respuesta>
+        <respuesta>Revolución Cubana</respuesta>
+        <respuesta>1868</respuesta>
+        <respuesta>1959</respuesta>
+        <correcta>Granma*Revolución Cubana*1868*</correcta>
+    </preguntaacomodartexto>
+</preguntas_acomodartexto>
